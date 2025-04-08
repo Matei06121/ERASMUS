@@ -1,1 +1,15 @@
 Vamos a conectar git cont github
+
+Inicializar repositorio local
+git init
+
+Anadir todos los archivos y carpetas al repositorio local
+git add .
+
+Guardarlo en le historical
+git commit -m "discription de cambios"
+
+Subirlo a github ( Publish )
+git push origin main
+
+Sincronizar cambios
