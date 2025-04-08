@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #003D8E;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.text {
+    padding: 10px;
+    background-color: #003D8E;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}

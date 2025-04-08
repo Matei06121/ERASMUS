@@ -1,0 +1,5 @@
+Guess the Number
+
+Things to consider in the program logic:
+
+1. Generate a random number between

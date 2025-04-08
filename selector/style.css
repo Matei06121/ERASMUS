@@ -1,0 +1,36 @@
+/* Selector de elemento  https://cssreference.io/  */
+
+header{
+    background-color: blueviolet;
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Selector de classe */
+
+.subTitulo{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* Selector de id */
+
+#description {
+    background-color: darkblue;
+    color: azure;
+    font-size: 1.0cm;
+}
+
+#paragraph{
+
+    background-color: darkslategrey;
+    color: greenyellow;
+}
+
+/* Selector universal */
+
+*{
+    background-color: grey;
+    font-style: oblique;
+}

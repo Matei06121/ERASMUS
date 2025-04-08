@@ -1,0 +1,51 @@
+/* pseudoclass */
+
+p:hover {
+    color: red;
+    font-size: 1.2cm;
+}
+
+input:focus {
+    padding: 5px;
+    background-color: lightcoral;
+    font-size: 1.5cm;
+    color: grey;
+}
+
+div {
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    padding: 5px;
+}
+
+div p:nth-child(3){
+    font-size: italic;
+    font-weight: bold;
+    color: coral;
+}
+
+/* pseudoelements */
+
+p::first-letter{
+    color: chartreuse;
+    font-size: 1.5cm;
+}
+
+p::first-line{
+    color: orange;
+}
+
+p::before{
+    content: "👍" ;
+}
+/* pt emoji, WINDOWS + . */
+
+p::after{
+    content: "🙌";
+}
+
+::placeholder{
+    color: lightblue;
+    padding: 10px;
+}

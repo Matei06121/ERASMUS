@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lufthansa by ERASMUS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="png" href="logoBUN.png">
+
+</head>
+<body>
+    <header id="navbar">
+        <div class="logo">
+          <img src="logoBUN.png" alt="" width="50px">
+          <p>Lufthansa Virtual</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Cloud Pilots Center</strong></a></li>
+            <li><a href="#"><strong>Live Map</strong></a></li>
+            <li><a href="#"><strong>Pilots Roster</strong></a></li>
+            <li><a href="#"><strong>Contact</strong></a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section class="hero">
+        <div class="hero-content">
+            <h1 id="hero-title">Welcome on Board!</h1>
+          </div>
+        <video autoplay muted loop playsinline id="bg-video">
+            <source src="https://videos.pexels.com/video-files/854271/854271-hd_1280_720_30fps.mp4">
+      </section>
+
+
+        <div class="container">
+           <div class="item">
+            <h4>Word from our Founder</h4>
+            <h6>One of the Best</h6>
+            <p>One of the Best
+                Welcome on board! Lufthansa Virtual was founded Sep, 4th 2025!
+                We are offering all Lufthansa Routes currently and we also have Lufthansa Cargo in our timetable.
+                DLH Virtual is an official VATSIM & IVAO Airline.
+                Also we do offer a lot of Tours to our pilots to show them places which are not in our regular schedule.
+                For sure we offer Discord for our pilots where all actual Informations are shown.
+                I wish all of our pilots.</p>
+            <p><strong>Happy Flying</strong></p>
+           </div>
+           <div class="itemPIREP">
+            <p class="titluLASTPIREP">Latest     <strong>PIREPS</strong></p>
+            <p>TURCCT14 // MUHA - MMVR // 02.18h // Airbus A320</p>
+
+            <p>SWR1727 // LIRF - LSZH // 01.13h // Airbus A320</p>
+                
+            <p>TURBNL15 // EBTX - EBTY // 00.51h // Cessna 172</p>
+                
+            <p>DLH145 // EDDN - EDDF // 00.33h // Airbus A319</p>
+                
+            <p>DLH429 // KCLT - EDDM // 08.02h // Airbus A350-900</p>
+                
+            <p>TURBNL15 // EBTX - EBTY // 49h // Cessna 172</p>
+                
+            <p>EWG9884 // EDDL - LIRF // 01.32h // Airbus A320SL</p>
+                
+            <p>CH10071 // OTHH - VRMM // 03.52h // Airbus A350-900</p>
+                
+            <p>DLH1866 // EDDM - LIRF // 01.12h // Airbus A321</p>
+                
+            <p>EWG9830 // EDDL - LIRQ // 01.18h // Airbus A319</p>
+           </div>
+           <div class="itemSTATS">
+            <p class="titluSTATS">Airline  <strong>STATS</strong></p>    
+            <p><strong>Active Pilots:</strong>  0</p>
+                
+                <p><strong>Total Routes:</strong>  0</p>
+                
+                    <p><strong>Total Flights:</strong> 0</p>
+                
+                        <p><strong>Total Hours:</strong>  0</p>
+            
+                            <p><strong>Total Miles Flown:</strong>  0</p>
+                
+                                <p><strong>Flights Yesterday:</strong>  0</p>
+                
+                                    <p><strong>Flights Today:</strong>  0</p>
+                
+                                        <p><strong>Current Flights:</strong>  0</p>
+                                            <p><strong>Upcoming Flights:</strong>  0</p>
+
+                                                <p><strong>New Pilots last 7 days:</strong>  0</p>
+                </p>
+           </div>
+           <div class="itemVIDEO">
+            <video controls autoplay muted loop >
+                <source src="videoDLH.mp4" type="video/mp4">
+              </video>             
+           </div>
+        </div>
+        
+        <div class="slideshow-container">
+          <img class="mySlides" src="a318.jpg">
+          <img class="mySlides" src="A320_3.jpeg">
+          <img class="mySlides" src="DLH23851.png">
+          <img class="mySlides" src="A320_2.jpg">
+          <img class="mySlides" src="A350.png">
+          <img class="mySlides" src="A320.png">
+          <img class="mySlides" src="geam.png">
+          <img class="mySlides" src="a380bun.png">
+      
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      
+        <div class="dots-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+      
+        
+          <div class="table-container">
+            <table>
+                <h1 class="MAPATITLU">LIVE FLIGHTS</h1>
+                <figure>
+                  <img src="pozamapasaracie.png" width="1521px">
+                </figure>
+                
+              <thead>
+                <tr>
+                  <th>Flight</th>
+                  <th>Pilot</th>
+                  <th>Aircraft</th>
+                  <th>Departure</th>
+                  <th>Arrival</th>
+                  <th>Phase</th>
+                  <th>Altitude / Speed</th>
+                  <th>Client</th>
+                  <th>Progress</th>
+                </tr>
+              </thead>
+              <tbody id="flight-data">
+                <tr>
+                  <td>DLH506</td>
+                  <td>Manuel</td>
+                  <td>Boeing 747-8</td>
+                  <td>EDDF</td>
+                  <td>KJFK</td>
+                  <td class="green">Cruising</td>
+                  <td>37000 ft / 493 kts</td>
+                  <td>SimCARS v1.1.3B</td>
+                  <td><div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></td>
+                </tr>
+                <tr>
+                    <td>DLH1176</td>
+                    <td>Eric</td>
+                    <td>Airbus A321neo</td>
+                    <td>EDDF</td>
+                    <td>LPPR</td>
+                    <td class="green">Cruising</td>
+                    <td>37026FT / 445KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 43%;"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>DLH1876</td>
+                    <td>Gennadi</td>
+                    <td>Airbus A320SL</td>
+                    <td>EDDM</td>
+                    <td>LIRN</td>
+                    <td class="green">Arrived</td>
+                    <td>373FT / 0KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 99%;"></div></div></td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <script src="script.js"></script>
+          <script async
+            src="">
+          </script>
+
+
+    <div class="footerContainer">
+        <div class="items">
+            <h4>PARTENERS:</h4>
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a2/Logo_VATSIM.png/1200px-Logo_VATSIM.png" width="120px">
+            <img src="vateud.png" width="165px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Ivao_blue.png" width="105px" >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/PMDG_Aircraft_Logo.png" width="190px">
+            <img src="https://seeklogo.com/images/A/aerosoft-logo-235E6C7C28-seeklogo.com.png" width="90px">
+        </div>
+        <div class="footerThing">
+            <h5>Copyright © 2025 - All rights reserved</h5>
+        </div>
+    </div>
+</body>
+</html>
