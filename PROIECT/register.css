@@ -35,18 +35,12 @@ body{
 .maker h1{
     text-align: center;
     color: #05164D;
-    font-size: 1.5rem;
-    -webkit-user-select: none; 
-    -moz-user-select: none;   
-    -ms-user-select: none;  
+    font-size: 1.5rem; 
 }
 
 .maker h2{
     font-size:1cm;
     text-align: center;
-    -webkit-user-select: none; 
-    -moz-user-select: none;   
-    -ms-user-select: none;  
 }
 .maker .input-box{
     margin: 15px;
