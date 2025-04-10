@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f1f3f6;
+    font-family: 'Segoe UI', sans-serif;
+    /* Eliminăm paddingul care mișcă tot spre dreapta */
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0; /* Ne asigurăm că începe de la marginea stângă */
+    width: 100%;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05164D;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 2px;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .logo p {
+    margin-top: 1px;
+    margin-left: 6px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    margin-top: 100px; /* ca să nu fie acoperit de header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #05164D;
+  }
+  
+  #hero-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  
+
+
+  .card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    padding: 1rem;
+  }
+  
+  .card-text h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    color: #333;
+  }
+  
+  .card-text p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+
+
+
+  .gallery2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  
+
+
+  .card2 {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .card2:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card2 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-text2 {
+    padding: 1rem;
+  }
+  
+  .card-text2 h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    color: #333;
+  }
+  
+  .card-text2 p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+
+  .gallery3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  
+
+
+  .card3 {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .card3:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card3 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-text3 {
+    padding: 1rem;
+  }
+  
+  .card-text3 h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    color: #333;
+  }
+  
+  .card-text3 p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+
+  .gallery4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  
+
+
+  .card4 {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .card4:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card4 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-text4 {
+    padding: 1rem;
+  }
+  
+  .card-text4 h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    color: #333;
+  }
+  
+  .card-text4 p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    z-index: 1000;
+    background: #05164D;
+  }
+  
+  
+  .logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .logo p{
+    margin-top: 18px;
+    margin-left: 6px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: row ;
+  }
+
+  .section3{
+    display: flex;
+    flex-direction: row ;
+  }
+
+
+  .Airbus{
+    color: #05164D;
+    justify-content: center ;
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .BOEING{
+    color: #05164D;
+    justify-content: center ;
+    display: flex;
+    margin-top: 40px;
+  }

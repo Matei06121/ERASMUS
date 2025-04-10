@@ -18,10 +18,11 @@
         <nav>
           <ul>
             <li><a href="#"><strong>Home</strong></a></li>
-            <li><a href="#"><strong>Fleet</strong></a></li>
-            <li><a href="#"><strong>Live Map</strong></a></li>
-            <li><a href="#"><strong>Contact</strong></a></li>
-            <li><a href="#"><strong>Log In</strong></a></li>
+            <li><a href="index2.html"><strong>Fleet</strong></a></li>
+            <li><a href="#dots-container" onclick="scrollWithOffset('table-container')" ><strong>Live Map</strong></a></li>
+            <li><a href="#form-container" onclick="scrollWithOffset2('form-container')" ><strong>Contact</strong></a></li>
+            <li><a href="log-in.html"><strong>Log In</strong></a></li>
+            </a>
           </ul>
         </nav>
       </header>
@@ -31,10 +32,10 @@
             <h1 id="hero-title">Welcome on Board!</h1>
           </div>
         <video autoplay muted loop playsinline id="bg-video">
-            <source src="https://videos.pexels.com/video-files/854271/854271-hd_1280_720_30fps.mp4">
+            <source src="videointro.mp4">
       </section>
 
-
+<section class="sect1">
         <div class="container">
            <div class="item">
             <h4>Word from our Founder</h4>
@@ -70,34 +71,35 @@
                 
            </div>
            <div class="itemSTATS">
-            <p class="titluSTATS">Airline  <strong>STATS</strong></p>    
-            <p><strong>Active Pilots:</strong>  0</p>
+            <h3>Airline  <strong>STATS</strong></h3>    
+            <p><strong>Active Pilots:</strong>  551</p>
                 
-                <p><strong>Total Routes:</strong>  0</p>
+                <p><strong>Total Routes:</strong>  6,177</p>
                 
-                    <p><strong>Total Flights:</strong> 0</p>
+                    <p><strong>Total Flights:</strong> 394,604</p>
                 
-                        <p><strong>Total Hours:</strong>  0</p>
+                        <p><strong>Total Hours:</strong>  1,090,845.57</p>
             
-                            <p><strong>Total Miles Flown:</strong>  0</p>
+                            <p><strong>Total Miles Flown:</strong>  427,037,816</p>
                 
-                                <p><strong>Flights Yesterday:</strong>  0</p>
+                                <p><strong>Flights Yesterday:</strong>  113</p>
                 
-                                    <p><strong>Flights Today:</strong>  0</p>
+                                    <p><strong>Flights Today:</strong>  13</p>
                 
-                                        <p><strong>Current Flights:</strong>  0</p>
-                                            <p><strong>Upcoming Flights:</strong>  0</p>
+                                        <p><strong>Current Flights:</strong>  15</p>
+                                            <p><strong>Upcoming Flights:</strong>  43</p>
 
-                                                <p><strong>New Pilots last 7 days:</strong>  0</p>
+                                                <p><strong>New Pilots last 7 days:</strong>  16</p>
                 </p>
-           </div>
+              </div>
            <div class="itemVIDEO">
             <video controls autoplay muted loop >
                 <source src="videoDLH.mp4" type="video/mp4">
               </video>             
            </div>
         </div>
-        
+      </section>
+        <section class=" sld2">
         <div class="slideshow-container">
           <img class="mySlides" src="a318.jpg">
           <img class="mySlides" src="A320_3.jpeg">
@@ -107,12 +109,15 @@
           <img class="mySlides" src="A320.png">
           <img class="mySlides" src="geam.png">
           <img class="mySlides" src="a380bun.png">
+          <img class="mySlides" src="A310_1.png">
+          <img class="mySlides" src="A320_4.png">
+          <img class="mySlides" src="A320_5.png">
       
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
       
-        <div class="dots-container">
+        <div class="dots-container" id="dots-container">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
@@ -121,10 +126,13 @@
           <span class="dot" onclick="currentSlide(6)"></span>
           <span class="dot" onclick="currentSlide(7)"></span>
           <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+          <span class="dot" onclick="currentSlide(10)"></span>
+          <span class="dot" onclick="currentSlide(11)"></span>
         </div>
-      
+      </section>
         
-          <div class="table-container">
+          <div class="table-container" id="table-container">
             <table>
                 <h1 class="MAPATITLU">LIVE FLIGHTS</h1>
                 <figure>
@@ -178,6 +186,72 @@
                     <td>SimCARS v1.1.3B</td>
                     <td><div class="progress"><div class="progress-bar" style="width: 99%;"></div></div></td>
                   </tr>
+                  <tr>
+                    <td>DLH181</td>
+                    <td>Michael</td>
+                    <td>Airbus A321</td>
+                    <td>EDDB</td>
+                    <td>EDDF</td>
+                    <td class="green">Cruising</td>
+                    <td>24019FT / 417KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 70%;"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>DLH1876</td>
+                    <td>Gennadi</td>
+                    <td>Airbus A320SL</td>
+                    <td>EDDM</td>
+                    <td>LIRN</td>
+                    <td class="green">Arrived</td>
+                    <td>373FT / 0KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 99%;"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>DLH452</td>
+                    <td>Florian</td>
+                    <td>Airbus A380-800</td>
+                    <td>EDDM</td>
+                    <td>KLAX</td>
+                    <td class="green">Cruising</td>
+                    <td>3740033FT / 470KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 63%;"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>DLH460</td>
+                    <td>Alejandro</td>
+                    <td>Airbus A350-900</td>
+                    <td>EDDM</td>
+                    <td>KMIA</td>
+                    <td class="green">Climbing</td>
+                    <td>5645FT / 207KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 2%;"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>DLH1981</td>
+                    <td>Marek</td>
+                    <td>CRJ 900</td>
+                    <td>EDDK</td>
+                    <td>EDDM</td>
+                    <td class="green">Preflight</td>
+                    <td>230FT / 0KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 0%;"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>DLH648B</td>
+                    <td>Mark</td>
+                    <td>Airbus A340-300</td>
+                    <td>UACC</td>
+                    <td>EDDF</td>
+                    <td class="green">Cruising</td>
+                    <td>37002FT / 479KIAS</td>
+                    <td>SimCARS v1.1.3B</td>
+                    <td><div class="progress"><div class="progress-bar" style="width: 46%;"></div></div></td>
+                  </tr>
               </tbody>
             </table>
           </div>
@@ -187,15 +261,61 @@
             src="">
           </script>
 
+<section class="contactt"> 
+
+<div class="form-container" id="form-container">
+  <div class="form-header">
+      <h2>CONTACT FORM</h2>
+  </div>
+  <form class="contact-form">
+      <label for="name">Name <span class="required">*</span></label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-mail <span class="required">*</span></label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone number <span class="required">*</span></label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Text</label>
+      <textarea id="message" name="message" maxlength="1500"></textarea>
+      <p class="char-count">max 1500 characters</p>
+
+      <button type="submit">Send</button>
+  </form>
+</div>
+<div class="CONTACTPLUS">
+    <h2>How to contact Lufthansa Virtual</h2>
+    <h4>You can reach out to Lufthansa Virtual in multiple ways, here are a few.</h4>
+    <div class="centered">
+      <a href="https://discord.gg/NmNhqMt7MG" class="discord">DISCORD</a>
+    </div>
+    
+
+    <p>Find our support from our community 24/7.</p>
+    <h3>EMAIL</h3>
+    <p>support@virtuallufthansa.net</p>
+  </div>
+</section>
+
+</div>
+
 
     <div class="footerContainer">
         <div class="items">
-            <h4>PARTENERS:</h4>
-            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a2/Logo_VATSIM.png/1200px-Logo_VATSIM.png" width="120px">
-            <img src="vateud.png" width="165px">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Ivao_blue.png" width="105px" >
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/PMDG_Aircraft_Logo.png" width="190px">
-            <img src="https://seeklogo.com/images/A/aerosoft-logo-235E6C7C28-seeklogo.com.png" width="90px">
+            <figure>
+              <img src="vatsim.jpeg">
+            </figure>
+            <figure>
+              <img src="vateud.png" >
+            </figure>
+            <figure>
+              <img src="ivao.png" >
+            </figure>
+            <figure>
+              <img src="pmdg.png" >
+            </figure>
+          
         </div>
         <div class="footerThing">
             <h5>Copyright © 2025 - All rights reserved</h5>

@@ -199,13 +199,25 @@
   box-sizing: 55%;
 }
 
+.sect1{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.sld2{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .itemSTATS{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   width: 190px;
-  height: 320px;
+  height: 380px;
   margin: 8px;
   padding: 12px 14px;
-  text-align: justify;
   overflow: hidden;
   font-size: 15px;
   border: 1px solid #05164D;
@@ -235,47 +247,70 @@
 }
 
 
-  footer{
-    background-color:bisque;
-    width: auto;
+footer {
+  background-color: bisque;
+  width: auto;
 }
 
-.footerContainer{
-    width: 100%;
-    padding: 150px 50px 50px;
-    background-color: white;
+.footerContainer {
+  width: 100%;
+  padding: 150px 50px 50px;
+  background-color: white;
 }
-.items{
-    display: flex;
-    align-items: center;
+
+.footerContainer .items {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.items h4{
-    padding: 10px;
-    margin-right: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
+.items h4 {
+  padding: 10px;
+  margin-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.items img{
-    margin-right: auto;
-    padding: 30px;
-    background-color: white;
-    border-radius: 20px;
-    border: 5px solid #05164D;
-    object-fit: cover;
+
+/* Casetele care conțin imaginile */
+.items figure {
+  width: 245px;
+  height: 180px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
-.footerNav{
-    margin: 30px;
+
+/* Imaginile propriu-zise */
+.items img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
-.footerNav ul a{
-    display: flex;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
+
+.footerNav {
+  margin: 30px;
 }
-.footerThing{
-    display: flex;
-    font-family: monospace;
-    align-items: center;
+
+.footerNav ul a {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
 }
+
+.footerThing {
+  display: flex;
+  font-family: monospace;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 
 body {
@@ -344,4 +379,163 @@ body {
 
 .active, .dot:hover {
   background-color: #05164D;
+}
+
+
+
+
+.form-container {
+  background-color: white;
+  max-width: 500px;
+  margin: 33px;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  
+}
+
+.form-header {
+  background-color: #05164D;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.form-header h2 {
+  margin: 0 0 10px;
+}
+
+.phone {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.show-number {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.contact-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.form-container{  
+  width: 40%;
+}
+
+.required {
+  color: red;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #888;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.CONTACTPLUS h2{
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: end;
+  width: 100%;
+}
+
+.CONTACTPLUS h4{
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: end;
+  width: 100%;
+}
+
+.CONTACTPLUS h3{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: end;
+  width: 100%;
+}
+
+.CONTACTPLUS p{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: end;
+  width: 100%;
+}
+
+.centered {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.discord {
+  color: #05164D;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+.CONTACTPLUS a{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: end;
+  width: 100%;
+}
+
+.contactt{
+  display: flex;
+  flex-direction: row ;
+  margin-top: 100px;
+}
+.char-count {
+  font-size: 0.85em;
+  color: #666;
+  margin: 5px 0 15px;
+}
+
+button[type="submit"] {
+  background-color: #05164D;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+button[type="submit"]:hover {
+  background-color: #05164D;
+}
+
+.CONTACTPLUS{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
 }

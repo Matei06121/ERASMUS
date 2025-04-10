@@ -88,3 +88,20 @@ function initMap() {
   
   // Poți adăuga dinamic zboruri în flight-data aici dacă vrei mai multă interactivitate
   
+
+
+  function scrollWithOffset(id) {
+    const element = document.getElementById(id);
+    const yOffset = -95; // aici setezi cât de sus vrei (în pixeli)
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+
+  function scrollWithOffset2(id) {
+    const element = document.getElementById(id);
+    const yOffset = -120; // aici setezi cât de sus vrei (în pixeli)
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
